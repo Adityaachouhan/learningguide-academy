@@ -1,0 +1,9 @@
+.sidebar .nav-link {
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.sidebar .nav-link:hover {
+  background-color: #5D79D0;
+  border-radius: 0.4rem;
+}

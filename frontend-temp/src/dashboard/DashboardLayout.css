@@ -1,0 +1,21 @@
+.dashboard-layout {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 220px;
+  background-color: #3E5BA9;
+  color: white;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex-grow: 1;
+  background-color: #F2F2F2;
+  overflow-y: auto;
+}
+
+.dashboard-body {
+  min-height: 80vh;
+}

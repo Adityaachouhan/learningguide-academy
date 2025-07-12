@@ -1,0 +1,21 @@
+.card {
+  border-radius: 1rem;
+  border: none;
+}
+
+input {
+  border-radius: 0.5rem;
+  padding: 10px;
+}
+
+label {
+  font-weight: 500;
+}
+
+button {
+  font-weight: 600;
+}
+
+h3 {
+  color: #3E5BA9; /* LGA Blue */
+}
