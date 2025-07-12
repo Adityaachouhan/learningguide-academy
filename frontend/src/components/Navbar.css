@@ -1,0 +1,16 @@
+.custom-navbar {
+  background-color: #3E5BA9;
+}
+
+.navbar .nav-link {
+  color: #fff !important;
+  margin-right: 10px;
+}
+
+.navbar .nav-link:hover {
+  color: #E6ECF9 !important;
+}
+
+.navbar .btn {
+  border-radius: 8px;
+}

@@ -1,0 +1,16 @@
+.mission-section {
+  background-color: #E6ECF9; /* Soft Blue-Grey */
+  color: #2E2E2E;
+}
+
+.mission-section h2 {
+  color: #3E5BA9; /* Dark Blue */
+}
+
+.mission-section p {
+  color: #2E2E2E;
+}
+
+.mission-section button {
+  font-weight: 500;
+}

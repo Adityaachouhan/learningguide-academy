@@ -1,0 +1,27 @@
+.quiz-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.quiz-box h5 {
+  margin-bottom: 20px;
+}
+
+.options label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.options input {
+  margin-right: 10px;
+}
+
+.result-box {
+  text-align: center;
+  padding: 30px;
+}
