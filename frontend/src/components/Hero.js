@@ -3,10 +3,10 @@ import './Hero.css';
 
 export default function Hero() {
   return (
-    <div className="hero-banner">
-      <div className="hero-overlay">
-        <h1 className="hero-title">Welcome to LearningGuide Academy</h1>
-      </div>
-    </div>
+   <section className="hero-section text-center text-white d-flex align-items-center justify-content-center">
+  <div className="container">
+    <h1 className="display-4 fw-bold">Welcome to<br />LearningGuide Academy</h1>
+  </div>
+</section>                
   );
 }

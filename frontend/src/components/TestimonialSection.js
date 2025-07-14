@@ -24,20 +24,26 @@ export default function TestimonialSection() {
   ];
 
   return (
-    <div className="testimonial-section container py-5">
-      <h2 className="text-center mb-4">🌟 What Our Students Say</h2>
-      <div className="row">
-        {testimonials.map((t, index) => (
-          <div className="col-md-4 mb-4" key={index}>
-            <div className="testimonial-card shadow p-4 h-100 text-center">
-              <img src={t.image} alt={t.name} className="testimonial-img mb-3" />
-              <h5>{t.name}</h5>
-              <small className="text-muted">{t.course}</small>
-              <p className="mt-3">{t.feedback}</p>
+    <section className="testimonial-section py-5 bg-light">
+      <div className="container">
+        <h2 className="text-center fw-bold mb-5">🌟 What Our Students Say</h2>
+        <div className="row g-4">
+          {testimonials.map((t, index) => (
+            <div className="col-12 col-md-4" key={index}>
+              <div className="testimonial-card p-4 text-center h-100 shadow-sm rounded bg-white">
+                <img
+                  src={t.image}
+                  alt={t.name}
+                  className="testimonial-img rounded-circle mb-3"
+                />
+                <h5 className="fw-semibold">{t.name}</h5>
+                <small className="text-muted">{t.course}</small>
+                <p className="mt-3">{t.feedback}</p>
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
-    </div>
+    </section>
   );
 }

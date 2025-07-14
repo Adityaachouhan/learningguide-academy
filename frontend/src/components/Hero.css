@@ -1,27 +1,41 @@
+/* Hero.css */
 .hero-banner {
-  width: 100vw;
-  height: 46vh;
-  background-image: url('/src/assets/hero-banner.png'); /* ✅ Make sure image is in public/images */
+  background-image: url('../assets/hero-bg.jpg'); /* update path if needed */
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  min-height: 60vh;
   position: relative;
-  margin-top: 70; /* ✅ Adjust if navbar is fixed */
+  color: white;
+  padding: 2rem 1rem;
 }
 
 .hero-overlay {
+  background: rgba(0, 0, 0, 0.5); /* subtle dark overlay for text visibility */
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.4); /* Optional dark overlay */
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 2rem;
 }
 
 .hero-title {
-  color: white;
-  font-size: 3rem;
-  font-weight: bold;
-  text-align: center;
-  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+  font-size: 2.5rem;
+}
+
+@media (min-width: 768px) {
+  .hero-title {
+    font-size: 3.5rem;
+  }
+
+  .hero-banner {
+    min-height: 75vh;
+  }
+}
+.hero-section {
+  background-image: url('../assets/hero-bg.jpg');  /* Update path if needed */
+  background-size: cover;
+  background-position: center;
+  min-height: 50vh;        /* Change this value to reduce height */
+  padding: 50px 0;         /* Optional: reduce padding as well */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

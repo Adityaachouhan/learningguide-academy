@@ -1,23 +1,16 @@
-.app-download {
-  background-color: #f8f9fa;
+/* AppDownloadSection.css */
+.app-download-section {
+  background: #f8f9fa;
 }
 
-.app-download h2 {
+.app-preview {
+  max-width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+.app-download-title {
   font-size: 2rem;
-  color: #2E2E2E;
-}
-
-.app-download p {
-  color: #555;
-}
-
-.app-download .btn {
-  background-color: #3E5BA9;
-  border: none;
-  font-weight: 500;
-  transition: all 0.3s ease;
-}
-
-.app-download .btn:hover {
-  background-color: #2e4690;
-}
+  color: #3e5ba9;
+  margin-bottom: 1rem;
+} 

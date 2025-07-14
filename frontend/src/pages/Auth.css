@@ -1,0 +1,15 @@
+.auth-page {
+  background: #f3f4f6;
+}
+
+.auth-box {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 768px) {
+  .auth-page .col-md-6:first-child {
+    display: none !important;
+  }
+}   

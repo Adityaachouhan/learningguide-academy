@@ -1,16 +1,17 @@
-.custom-navbar {
-  background-color: #3E5BA9;
+.navbar-brand {
+  font-size: 1.2rem;
 }
 
-.navbar .nav-link {
-  color: #fff !important;
-  margin-right: 10px;
+.nav-link {
+  color: #f0f0f0 !important;
+  font-weight: 500;
 }
 
-.navbar .nav-link:hover {
-  color: #E6ECF9 !important;
+.nav-link:hover {
+  color: #ffffff !important;
+  text-decoration: underline;
 }
 
-.navbar .btn {
-  border-radius: 8px;
+.btn-light {
+  font-weight: 500;
 }

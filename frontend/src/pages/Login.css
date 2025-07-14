@@ -1,0 +1,57 @@
+/* LoginModern.css */
+
+.login-modern-wrapper {
+  background-color: #dbe8ff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.login-modern-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  max-width: 900px;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* LEFT IMAGE */
+.login-modern-left {
+  flex: 1;
+  background-color: #edf4ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.login-modern-left img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* RIGHT FORM */
+.login-modern-right {
+  flex: 1;
+  padding: 2.5rem;
+}
+
+/* RESPONSIVE BEHAVIOR */
+@media (max-width: 768px) {
+  .login-modern-card {
+    flex-direction: column;
+  }
+
+  .login-modern-left {
+    padding: 1.5rem;
+  }
+
+  .login-modern-right {
+    padding: 2rem;
+  }
+}

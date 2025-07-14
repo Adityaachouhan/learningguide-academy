@@ -1,20 +1,16 @@
-.testimonial-section {
-  background-color: #F2F2F2;
+/* TestimonialSection.css */
+.testimonial-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #3e5ba9;
 }
 
 .testimonial-card {
-  background-color: white;
-  border-radius: 1rem;
-  transition: transform 0.2s ease;
+  transition: transform 0.3s ease;
 }
 
 .testimonial-card:hover {
   transform: translateY(-5px);
-}
-
-.testimonial-img {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  object-fit: cover;
 }

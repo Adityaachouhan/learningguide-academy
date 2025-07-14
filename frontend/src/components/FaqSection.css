@@ -1,76 +1,14 @@
-.faq-section {
-  background-color: #f2f2f2;
-  padding: 60px 20px;
-}
-
-.accordion {
-  max-width: 800px;
-  margin: auto;
-}
-
-.accordion-item {
-  background-color: #fff;
-  margin-bottom: 15px;
-  border-radius: 6px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-  overflow: hidden;
-}
-
-.accordion-header {
-  padding: 15px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  cursor: pointer;
-  font-weight: 600;
-  color: #3E5BA9;
-  background-color: #e6ecf9;
-}
-
-.accordion-body-wrapper {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.4s ease;
-}
-
-.accordion-body-wrapper.open {
-  max-height: 300px; /* adjust if your answer is long */
-}
-
-.accordion-body {
-  padding: 15px 20px;
-  background-color: white;
-  border-top: 1px solid #ddd;
-}
-
-.accordion-body p {
-  margin: 0;
-  color: #333;
-}
-
-.accordion-header span {
-  font-size: 24px;
-  transition: transform 0.3s ease;
-}
 /* FaqSection.css */
+.faq-section {
+  background-color: #ffffff;
+}
+
 .accordion-button {
-  padding: 0.75rem 1rem !important; /* reduce top-bottom spacing */
+  font-weight: 500;
   font-size: 1rem;
 }
 
-.accordion-item {
-  margin-bottom: 0.5rem;
-  border-radius: 1px;
-}
-
 .accordion-body {
-  padding: 0.75rem 1rem !important; /* consistent with header */
-}
-.accordion-header {
-  padding: 0.75rem 1rem !important; /* consistent with body */
-  font-weight: 600;
-}
-.accordion-button:not(.collapsed) {
-  background-color: white;
-  color: #000;
+  font-size: 0.95rem;
+  color: #444;
 }
